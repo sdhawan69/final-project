@@ -1,0 +1,313 @@
+/*html and body*/
+html,body{
+    height: 100%;
+    margin: 0;
+}
+/*body*/
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+}
+/*header*/
+.header{
+    display: flex;
+    width: 100%;
+    flex: 0 1 auto;
+    top: 0;
+    background-color: #f2f4f3;
+}
+/*logo*/
+.logo img{
+    flex-grow: 3;
+    height: 85px;
+    width: auto;
+    margin: 0px;
+}
+/*header nav*/
+.header > nav > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    margin-top: 30px;
+}
+.header > nav > ul > a{
+    color: #0e0e0e;
+    text-decoration: none;
+    padding: 30px;
+}
+/*main section on the page*/
+.index-title{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.index-name{
+    text-align: center;
+}
+.index-name > h1{
+    font-family: "Asset", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+.index-banner{
+    text-align: center;
+}
+.index-banner > p{
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.index-p1{
+    position: relative;
+    display: inline-block;
+}
+/*our main image of a product*/
+.index-main-img > a > img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.index-m1 > h3{
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow:
+            2px 2px 5px rgba(0, 0, 0, 0.3),
+            4px 4px 10px rgba(0, 0, 0, 0.3),
+            6px 6px 15px rgba(0, 0, 0, 0.2),
+            8px 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: "Codystar", sans-serif;
+}
+.index-p-name > p{
+    position: absolute;
+    top: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Krona One", sans-serif;
+}
+.index-p-price > p{
+    position: absolute;
+    top: 95%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Krona One", sans-serif;
+}
+/*footer*/
+.footer{
+    background-color: #f2f4f3;
+}
+.copyright{
+    text-align: center;
+}
+/*shop page*/
+.shop-main{
+    display: flex;
+    flex-direction: row;
+}
+.p1-shop{
+    flex: 1;
+}
+.p-shop{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.shop-img > img{
+    max-width: 100%;
+    height: auto;
+}
+.title-shop{
+    flex: 2;
+}
+.image-shop{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+.shop-img1 > img{
+    max-width: 100%;
+    height: auto;
+}
+.shop-img2 > img{
+    max-width: 100%;
+    height: auto;
+}
+.shop-img3 > img{
+    max-width: 100%;
+    height: auto;
+}
+.shop-p1{
+    display: flex;
+    flex-direction: column;
+}
+.shop-p2{
+    display: flex;
+    flex-direction: column;
+}
+.shop-p3{
+    display: flex;
+    flex-direction: column;
+}
+/*shop button*/
+.button-shop > a{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+/*about us page video*/
+.vid-about > video{
+    width: 100%;
+    height: auto;
+}
+.about-t > h2{
+    text-align: center;
+    font-family: "Asset", serif;
+}
+.about-t1 > p{
+    font-weight: bold;
+    text-align: center;
+}
+.about-t2 > p{
+    font-weight: bold;
+    text-align: center;
+}
+/*contact page*/
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact-1{
+    flex: 1;
+}
+.contact-2{
+    flex: 2;
+}
+.contact-0 input[type="text"],
+.contact-0 input[type="email"],
+.contact-0 textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.contact-0 button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-0 button:hover {
+    background-color: #0056b3;
+}
+.contact-0 input[type="submit"]{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.p1 > a > img{
+    max-width: 100%;
+    height: auto;
+}
+/*so all the main fill a page if the content is less*/
+main{
+    flex: 1;
+}
+/*our products css*/
+.p1-main{
+    display: flex;
+    flex-direction: row;
+}
+.p1{
+    flex: 1;
+}
+.p1-aside{
+    flex: 2;
+}
+.buy-now {
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.buy-now:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+.buy-now:active {
+    background-color: #d84315;
+}
+/*checkout page when you enter buy now in any product page*/
+.checkout-form {
+    display: flex;
+    flex-direction: row;
+}
+.s1-checkout ,
+.s2-checkout {
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.s1-checkout h2,
+.s2-checkout h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.checkout-button {
+
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+    background-color: #218838;
+}

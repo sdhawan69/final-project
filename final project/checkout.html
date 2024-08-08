@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <!--Meta types-->
+    <meta name="description" content="Checkout page">
+    <!--Title-->
+    <title>Checkout Page</title>
+    <!-- add our custom js file and jquery link-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<!--Body-->
+<body>
+<!--Header-->
+<header id="header"></header>
+<!--Checkout-->
+<main class="checkout-main">
+    <h1>Checkout</h1>
+    <!--All the required information from user is collected here-->
+    <form class="checkout-form" action="somephpfile" method="post" enctype="multipart/form-data">
+        <section class="s1-checkout">
+            <h2>Billing Information</h2>
+            <label for="full-name">Full Name</label>
+            <br>
+            <input type="text" id="full-name" name="full-name" required>
+            <br>
+            <label for="email">Email Address</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="address">Address</label>
+            <br>
+            <input type="text" id="address" name="address" required>
+            <br>
+            <label for="city">City</label>
+            <br>
+            <input type="text" id="city" name="city" required>
+            <br>
+            <label for="state">State</label>
+            <br>
+            <input type="text" id="state" name="state" required>
+            <br>
+            <label for="zip">ZIP Code</label>
+            <br>
+            <input type="text" id="zip" name="zip" required>
+            <br>
+            <label for="country">Country</label>
+            <br>
+            <input type="text" id="country" name="country" required>
+            <br>
+        </section>
+
+        <section class="s2-checkout">
+            <h2>Shipping Information</h2>
+            <label for="ship-address">Shipping Address</label>
+            <br>
+            <input type="text" id="ship-address" name="ship-address" required>
+            <br>
+            <label for="ship-city">City</label>
+            <br>
+            <input type="text" id="ship-city" name="ship-city" required>
+            <br>
+            <label for="ship-state">State</label>
+            <br>
+            <input type="text" id="ship-state" name="ship-state" required>
+            <br>
+            <label for="ship-zip">ZIP Code</label>
+            <br>
+            <input type="text" id="ship-zip" name="ship-zip" required>
+            <br>
+            <label for="ship-country">Country</label>
+            <br>
+            <input type="text" id="ship-country" name="ship-country" required>
+            <br>
+            <button type="submit" class="checkout-button">Place Order</button>
+        </section>
+    </form>
+</main>
+<!--footer-->
+<footer id="footer"></footer>
+</body>
+</html>

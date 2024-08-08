@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <!--Meta types-->
+    <meta name="description" content="Contact us page">
+    <!--Title-->
+    <title>Contact Us</title>
+    <!-- add our custom js file and jquery link-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<!--BODY-->
+<body>
+<!--Header-->
+<div id="header"></div>
+<!--HElP page-->
+<main class="contact">
+    <div class="contact-1">
+        <div>
+            <div>
+                <p>How can we help you?</p>
+            </div>
+            <div>
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <div>
+            <p>We're here to help and answer any question that you might have.We look forward to hearing from you</p>
+        </div>
+    </div>
+    <!--Collecting info from user-->
+    <div class="contact-2">
+        <form  class="contact-0" action="somephpfile" method="post" enctype="multipart/form-data">
+
+            <label>Your Name</label>
+            <br>
+            <input type="text" name="name" required >
+            <br>
+            <label>Your Email</label>
+            <br>
+            <input type="email" name="email" required>
+            <br>
+            <label>Message</label>
+            <br>
+            <input type="text" name="Your Question" required>
+            <br>
+            <input type="submit" value="Just Send">
+        </form>
+    </div>
+</main>
+<div id="footer"></div>
+</body>
+</html>
